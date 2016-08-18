@@ -8,6 +8,8 @@ html, body, ul, li, figure, h1 {
   box-sizing: inherit;
 
   background: transparent;
+
+  font-family: 'Permanent Marker', cursive;
 }
 
 li {
@@ -19,12 +21,19 @@ li {
   margin: 0 auto;
 }
 
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin: 20px auto;
+}
+
 .disk {
   height: 40px;
   background-color: green;
   border-radius: 20px;
   vertical-align: bottom;
   margin: 10px auto;
+  border: 1px solid black;
 }
 
 #first {
@@ -63,6 +72,8 @@ li {
 
 .board {
   border: 5px solid black;
+  border-radius: 10px;
+  background: #fbf0d4;
 }
 
 .stack {
